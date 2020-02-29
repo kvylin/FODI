@@ -7,9 +7,9 @@
         * SITE_NAME：站点名称
         */
         window.GLOBAL_CONFIG = {
-            SCF_GATEWAY: "fodi.unless.workers.dev",
+            SCF_GATEWAY: "https://fodi.unless.workers.dev",
             SITE_NAME: "FODI",
-            IS_CF: true
+            IS_CF: false
         };
         if (window.GLOBAL_CONFIG.SCF_GATEWAY.indexOf('workers') === -1) {
             window.GLOBAL_CONFIG.SCF_GATEWAY += '/fodi/';
